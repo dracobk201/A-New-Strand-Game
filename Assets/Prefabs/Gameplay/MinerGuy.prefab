@@ -424,8 +424,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1417712062907953007}
   - component: {fileID: 1666650565675731872}
+  - component: {fileID: 2057267986461572083}
   m_Layer: 0
-  m_Name: Minerito
+  m_Name: MinerGuy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -467,6 +468,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2057267986461572083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3708563212834214764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9cef0f64e9e4b94bad9664352387a00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerAnimator: {fileID: 0}
 --- !u!1 &5628583971355572480
 GameObject:
   m_ObjectHideFlags: 0

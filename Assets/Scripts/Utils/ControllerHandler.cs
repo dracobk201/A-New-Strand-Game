@@ -35,6 +35,8 @@ public class ControllerHandler : MonoBehaviour
 
     [SerializeField]
     private GameEvent DirectionalAxisEvent;
+    [SerializeField]
+    private GameEvent NoDirectionalAxisEvent;
 
     [Header("Touch Variables")]
     [SerializeField]
@@ -78,6 +80,7 @@ public class ControllerHandler : MonoBehaviour
     {
         CheckingVerticalAxis();
         CheckingHorizontalAxis();
+        CheckNoDirectionalAxis();
         CheckingStartButton();
         CheckingSquareButton();
         CheckingXButton();
@@ -185,6 +188,14 @@ public class ControllerHandler : MonoBehaviour
     #endregion
 
     #region Horizontal Functions
+
+    private void CheckNoDirectionalAxis()
+    {
+        if (Input.GetAxisRaw(Global.HORIZONTALAXIS) == 0 && Input.GetAxisRaw(Global.VERTICALAXIS) == 0)
+        {
+            NoDirectionalAxisEvent.Raise();
+        }
+    }
 
     private void CheckingHorizontalAxis()
     {
