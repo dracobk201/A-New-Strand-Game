@@ -140,6 +140,10 @@ MonoBehaviour:
     UseVariable: 1
     ConstantValue: 0
     Variable: {fileID: 11400000, guid: 6bc379e20c8ff194db9afa732c26fa38, type: 2}
+  PlayerInStairs:
+    UseVariable: 1
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 9cf6f8b179af50b4d9ba757c7533c9ea, type: 2}
 --- !u!61 &5236392769093529070
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -186,7 +190,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &5236392769093529043
 MonoBehaviour:
   m_ObjectHideFlags: 0

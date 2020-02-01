@@ -10,6 +10,8 @@ public class PlayerMovement : MonoBehaviour
     private FloatReference VerticalAxis;
     [SerializeField]
     private FloatReference MoveSpeed;
+    [SerializeField]
+    private BoolReference PlayerInStairs;
     private Rigidbody2D playerRigidbody2D;
 
     private void Awake()
@@ -22,7 +24,17 @@ public class PlayerMovement : MonoBehaviour
     {
         Vector2 oldPosition = playerRigidbody2D.position;
         float newX = HorizontalAxis.Value * MoveSpeed.Value * Time.deltaTime;
-        float newY = VerticalAxis.Value * MoveSpeed.Value * Time.deltaTime;
+        float newY;
+        if (PlayerInStairs.Value)
+        {
+            newY = VerticalAxis.Value * MoveSpeed.Value * Time.deltaTime;
+            playerRigidbody2D.gravityScale = 0;
+        }
+        else
+        {
+            newY = 0;
+            playerRigidbody2D.gravityScale = 1;
+        }
         playerRigidbody2D.position = new Vector2(oldPosition.x + newX, oldPosition.y + newY);
     }
 }

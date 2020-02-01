@@ -18,10 +18,13 @@ public class BridgeBehaviour : MonoBehaviour
     private IntReference WaterNeeded;
     [SerializeField]
     private IntReference EnergyNeeded;
+    [Header("Internal")]
     [SerializeField]
     private GameEvent BridgeRepaired;
     [SerializeField]
     private Collider2D otherCollider;
+    [SerializeField]
+    private SpriteRenderer bridgeSpriteRenderer;
     private bool playerInside;
     private bool thisZoneIsRepaired;
 
@@ -54,7 +57,7 @@ public class BridgeBehaviour : MonoBehaviour
             EnergyPool.Value -= EnergyNeeded.Value;
             //Disparar Animación
             coll.enabled = false;
-            print("Me reparé");
+            bridgeSpriteRenderer.color = Color.green;
             thisZoneIsRepaired = true;
             BridgeRepaired.Raise();
         }
