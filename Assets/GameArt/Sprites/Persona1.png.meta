@@ -1,0 +1,451 @@
+fileFormatVersion: 2
+guid: 92c878365cc44f946995bb44ea0f5fd0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6277802615146154721
+    second: MineritoColor_0
+  - first:
+      213: -5137216492589464208
+    second: MineritoColor_1
+  - first:
+      213: -5988127421602834932
+    second: MineritoColor_2
+  - first:
+      213: -8622522784948801045
+    second: MineritoColor_3
+  - first:
+      213: 2279703539796798410
+    second: MineritoColor_4
+  - first:
+      213: -2086463402432292981
+    second: MineritoColor_5
+  - first:
+      213: 3218759042246892536
+    second: MineritoColor_6
+  - first:
+      213: -9075377341990047747
+    second: MineritoColor_7
+  - first:
+      213: 1009552956919642686
+    second: MineritoColor_8
+  - first:
+      213: 8235556800344143526
+    second: MineritoColor_9
+  - first:
+      213: 8091167762854510647
+    second: MineritoColor_10
+  - first:
+      213: 4449025502442749899
+    second: MineritoColor_11
+  - first:
+      213: -3723155509920907528
+    second: MineritoColor_12
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MineritoColor_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 435
+        width: 73
+        height: 106
+      alignment: 9
+      pivot: {x: 0.821564, y: 0.8444859}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea0ecd973c3f1750800000000000000
+      internalID: 6277802615146154721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MineritoColor_1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 235
+        width: 204
+        height: 515
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0754de071d0f4b8b0800000000000000
+      internalID: -5137216492589464208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MineritoColor_2
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 462
+        width: 70
+        height: 95
+      alignment: 9
+      pivot: {x: 0.23917629, y: 0.82946265}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c06569526d5e5eca0800000000000000
+      internalID: -5988127421602834932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MineritoColor_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 271
+        width: 63
+        height: 133
+      alignment: 9
+      pivot: {x: 0.5207006, y: 0.8824123}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be13a6f0635a65880800000000000000
+      internalID: -8622522784948801045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MineritoColor_4
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 300
+        width: 52
+        height: 132
+      alignment: 9
+      pivot: {x: 0.34952486, y: 0.8556699}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acbe9c28a4223af10800000000000000
+      internalID: 2279703539796798410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MineritoColor_5
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 245
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b879b2d07946b03e0800000000000000
+      internalID: -2086463402432292981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MineritoColor_6
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 125
+        width: 101
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5000003, y: 0.85111004}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fbd3b29b445bac20800000000000000
+      internalID: 3218759042246892536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MineritoColor_7
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 225
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dffed001468cd0280800000000000000
+      internalID: -9075377341990047747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MineritoColor_8
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 137
+        width: 56
+        height: 90
+      alignment: 9
+      pivot: {x: 0.50000054, y: 0.86225617}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3af323c017a20e00800000000000000
+      internalID: 1009552956919642686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MineritoColor_9
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 119
+        width: 63
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5621008, y: 0.87938094}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a6b01ca6439a4270800000000000000
+      internalID: 8235556800344143526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MineritoColor_10
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 70
+        width: 98
+        height: 124
+      alignment: 9
+      pivot: {x: 0.46007794, y: 0.868099}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7300903263a994070800000000000000
+      internalID: 8091167762854510647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MineritoColor_11
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 3
+        width: 90
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcff0cd5f1d1ebd30800000000000000
+      internalID: 4449025502442749899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MineritoColor_12
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 4
+        width: 120
+        height: 109
+      alignment: 9
+      pivot: {x: 0.46739706, y: 0.51196456}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe30a33ac1b45cc0800000000000000
+      internalID: -3723155509920907528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
