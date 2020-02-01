@@ -1,6 +1,4 @@
-﻿
-
-public static class Global
+﻿public static class Global
 {
     #region Tags
     public const string PLAYERTAG = "Player";
@@ -22,5 +20,4 @@ public static class Global
     #region Animations
 
     #endregion
-
 }

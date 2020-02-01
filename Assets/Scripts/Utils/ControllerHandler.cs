@@ -33,6 +33,9 @@ public class ControllerHandler : MonoBehaviour
     private GameEvent NonVerticalAxisEvent;
     private bool isVerticalAxisInUse = false;
 
+    [SerializeField]
+    private GameEvent DirectionalAxisEvent;
+
     [Header("Touch Variables")]
     [SerializeField]
     private FloatReference MaxSwipeTime;
@@ -213,6 +216,7 @@ public class ControllerHandler : MonoBehaviour
         if (HorizontalSinglePress.Value)
             isHorizontalAxisInUse = true;
         RightButtonEvent.Raise();
+        DirectionalAxisEvent.Raise();
     }
 
     private void LeftDirectionActions()
@@ -221,6 +225,7 @@ public class ControllerHandler : MonoBehaviour
         if (HorizontalSinglePress.Value)
             isHorizontalAxisInUse = true;
         LeftButtonEvent.Raise();
+        DirectionalAxisEvent.Raise();
     }
 
     #endregion
@@ -256,6 +261,7 @@ public class ControllerHandler : MonoBehaviour
         if (VerticalSinglePress.Value)
             isVerticalAxisInUse = true;
         UpButtonEvent.Raise();
+        DirectionalAxisEvent.Raise();
     }
 
     private void DownDirectionActions()
@@ -264,6 +270,7 @@ public class ControllerHandler : MonoBehaviour
         if (VerticalSinglePress.Value)
             isVerticalAxisInUse = true;
         DownButtonEvent.Raise();
+        DirectionalAxisEvent.Raise();
     }
 
     #endregion

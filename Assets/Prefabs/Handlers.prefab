@@ -76,8 +76,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &3981476124672406823
 GameObject:
   m_ObjectHideFlags: 0
@@ -144,6 +142,8 @@ MonoBehaviour:
   UpButtonEvent: {fileID: 11400000, guid: c3f55849b88c10341bd160b5aeac7ec6, type: 2}
   DownButtonEvent: {fileID: 11400000, guid: 3d7be2a9898f0fb4c8dbf85ec2459867, type: 2}
   NonVerticalAxisEvent: {fileID: 11400000, guid: 5f9cf441191c92c44a5b5fdfb1ee67f3,
+    type: 2}
+  DirectionalAxisEvent: {fileID: 11400000, guid: 135a13efe13be3d40a79d05a2d8a4759,
     type: 2}
   MaxSwipeTime:
     UseVariable: 1
@@ -532,8 +532,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &8129048215599985842
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -561,5 +559,3 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
