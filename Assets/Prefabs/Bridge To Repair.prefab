@@ -70,7 +70,7 @@ MonoBehaviour:
     UseVariable: 1
     ConstantValue: 0
     Variable: {fileID: 11400000, guid: 26e0e3644fbe07e47a9d7ecdd57bad0e, type: 2}
-  SpawnPeople: {fileID: 11400000, guid: b68b45fb8f1571e49a046e575b0c0588, type: 2}
+  BridgeRepaired: {fileID: 11400000, guid: b68b45fb8f1571e49a046e575b0c0588, type: 2}
   otherCollider: {fileID: 4430881101815956862}
 --- !u!61 &4430881101462961534
 BoxCollider2D:
