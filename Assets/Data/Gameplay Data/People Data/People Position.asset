@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bd9c1440ca7a734f9f3f9c5e77bcf47, type: 3}
   m_Name: People Position
   m_EditorClassIdentifier: 
-  Value: {x: 0, y: 0, z: 0}
+  Value: {x: 10.63, y: 1.4200001, z: 0}
   Description: 

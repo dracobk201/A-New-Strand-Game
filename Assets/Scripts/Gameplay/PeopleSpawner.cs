@@ -22,13 +22,15 @@ public class PeopleSpawner : MonoBehaviour
     {
         while (true)
         {
-            yield return new WaitForSeconds(10);
+            yield return new WaitForSeconds(8);
             ShowAPerson();
         }
     }
 
     public void ShowAPerson()
     {
+        if (PeoplePosition.Value == Vector3.zero)
+            return;
         Vector2 initialPosition = Vector2.zero;
         initialPosition = (Vector2)PeoplePosition.Value;
 

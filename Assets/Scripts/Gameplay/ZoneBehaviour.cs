@@ -23,6 +23,8 @@ public class ZoneBehaviour : MonoBehaviour
     {
         playerInside = false;
         zoneWithResource = true;
+        zoneAnimator.SetBool(Global.ZONEONANIMATION,true);
+
     }
 
     private void OnTriggerStay2D(Collider2D other)
@@ -46,7 +48,7 @@ public class ZoneBehaviour : MonoBehaviour
     public void ZoneRechargeResource()
     {
         zoneWithResource = true;
-        zoneAnimator.SetTrigger(Global.ZONEONANIMATION);
+        zoneAnimator.SetBool(Global.ZONEONANIMATION,true);
     }
 
     private void RechargePool()
@@ -55,7 +57,7 @@ public class ZoneBehaviour : MonoBehaviour
         WaterPool.Value += WaterGenerated.Value;
         EnergyPool.Value += EnergyGenerated.Value;
         zoneWithResource = false;
-        zoneAnimator.SetTrigger(Global.ZONEOFFANIMATION);
+        zoneAnimator.SetBool(Global.ZONEONANIMATION,false);
         PersonPosition.Value = SpawnerPoint.transform.position;
         PoolRecharged.Raise();
     }
