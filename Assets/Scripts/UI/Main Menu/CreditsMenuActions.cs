@@ -33,4 +33,14 @@ public class CreditsMenuActions : MonoBehaviour
     {
         Application.OpenURL("https://www.instagram.com/pixel8mike/");
     }
+
+    public void OpenSamuelInstagram()
+    {
+        Application.OpenURL("https://www.instagram.com/samuelnavas_/");
+    }
+
+    public void OpenSamuelSoundcloud()
+    {
+        Application.OpenURL("https://soundcloud.com/navassamuel");
+    }
 }
