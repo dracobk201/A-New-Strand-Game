@@ -16,6 +16,7 @@ public class BridgeBehaviour : MonoBehaviour
     [SerializeField] private GameEvent BridgeRepaired;
     [SerializeField] private Collider2D otherCollider;
     [SerializeField] private SpriteRenderer bridgeSpriteRenderer;
+    [SerializeField] private SpriteRenderer SuperiorBbridgeSpriteRenderer;
     [SerializeField] private Sprite bridgeDestroyedSprite;
     [SerializeField] private Sprite bridgeRepairedSprite;
     private bool playerInside;
@@ -24,6 +25,8 @@ public class BridgeBehaviour : MonoBehaviour
     private void Start()
     {
         bridgeSpriteRenderer.sprite = bridgeDestroyedSprite;
+        if (!gameObject.tag.Equals(Global.BRIDGETAG))
+            SuperiorBbridgeSpriteRenderer.sprite = bridgeDestroyedSprite;
     }
 
     private void OnTriggerStay2D(Collider2D other)
@@ -56,6 +59,8 @@ public class BridgeBehaviour : MonoBehaviour
             //Disparar Animación
             coll.enabled = false;
             bridgeSpriteRenderer.sprite = bridgeRepairedSprite;
+            if (!gameObject.tag.Equals(Global.BRIDGETAG))
+                SuperiorBbridgeSpriteRenderer.sprite = bridgeRepairedSprite;
             thisZoneIsRepaired = true;
             BridgeRepaired.Raise();
         }

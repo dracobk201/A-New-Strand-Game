@@ -219,6 +219,23 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4430881101462961521, guid: ba1eb938efa192342b2ac515d266f221,
+        type: 3}
+      propertyPath: bridgeDestroyedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 46dbbbe27bf02a74ea39bf3199629f8b,
+        type: 3}
+    - target: {fileID: 4430881101462961521, guid: ba1eb938efa192342b2ac515d266f221,
+        type: 3}
+      propertyPath: bridgeRepairedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9b580b4ab62e3d74a803aa98f151263c,
+        type: 3}
+    - target: {fileID: 4430881101462961521, guid: ba1eb938efa192342b2ac515d266f221,
+        type: 3}
+      propertyPath: SuperiorBbridgeSpriteRenderer
+      value: 
+      objectReference: {fileID: 2455775677390422655}
     - target: {fileID: 4430881101462961534, guid: ba1eb938efa192342b2ac515d266f221,
         type: 3}
       propertyPath: m_Offset.x
