@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3658110668642465089}
   m_Layer: 0
   m_Name: Level Limit
-  m_TagString: Untagged
+  m_TagString: Blocker
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

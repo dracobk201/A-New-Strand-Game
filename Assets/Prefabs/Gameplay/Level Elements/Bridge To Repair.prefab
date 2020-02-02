@@ -71,6 +71,10 @@ MonoBehaviour:
     UseVariable: 1
     ConstantValue: 0
     Variable: {fileID: 11400000, guid: 26e0e3644fbe07e47a9d7ecdd57bad0e, type: 2}
+  PersonPosition:
+    UseVariable: 1
+    ConstantValue: {x: 0, y: 0, z: 0}
+    Variable: {fileID: 11400000, guid: fa57fbf48111a86478cc9cb6aa9824f4, type: 2}
   BridgeRepaired: {fileID: 11400000, guid: b68b45fb8f1571e49a046e575b0c0588, type: 2}
   otherCollider: {fileID: 4430881101815956862}
   bridgeSpriteRenderer: {fileID: 2720012418524221344}
@@ -144,7 +148,7 @@ GameObject:
   - component: {fileID: 4430881101815956862}
   m_Layer: 0
   m_Name: Point Sprite
-  m_TagString: Untagged
+  m_TagString: Blocker
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

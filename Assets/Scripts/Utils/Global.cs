@@ -2,6 +2,7 @@
 {
     #region Tags
     public const string PLAYERTAG = "Player";
+    public const string BLOCKERTAG = "Blocker";
     #endregion
 
     #region Axis

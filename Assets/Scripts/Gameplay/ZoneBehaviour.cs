@@ -20,6 +20,7 @@ public class ZoneBehaviour : MonoBehaviour
     private IntReference EnergyGenerated;
     [SerializeField]
     private GameEvent PoolRecharged;
+    [SerializeField] private Vector3Reference PersonPosition;
     private bool zoneWithResource;
     private bool playerInside;
 
@@ -58,6 +59,7 @@ public class ZoneBehaviour : MonoBehaviour
         WaterPool.Value += WaterGenerated.Value;
         EnergyPool.Value += EnergyGenerated.Value;
         zoneWithResource = false;
+        PersonPosition.Value = transform.position;
         PoolRecharged.Raise();
     }
 }

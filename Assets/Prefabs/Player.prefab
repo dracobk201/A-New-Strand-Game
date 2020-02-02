@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 126343413}
   - component: {fileID: 126343414}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Martillo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91,7 +91,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8778146856846606204}
   - component: {fileID: 3353398983227847808}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: antebrazo_fondo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -173,7 +173,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4315959510113717271}
   - component: {fileID: 6261124427917737049}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: pierna_frente
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -256,7 +256,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3287723031028673845}
   - component: {fileID: 2279525725492689175}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: brazo_frente
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -339,7 +339,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5597480149929567344}
   - component: {fileID: 739367502777518434}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: cabeza_torso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -423,7 +423,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7280790659040619996}
   - component: {fileID: 8805796366994326700}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: pie_frente
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -513,7 +513,7 @@ GameObject:
   - component: {fileID: 4074156724690188857}
   - component: {fileID: 8582183541300463857}
   - component: {fileID: 7155811682241318636}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: MinerGuy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -771,7 +771,7 @@ GameObject:
   - component: {fileID: 5236392769093529070}
   - component: {fileID: 5236392769093529071}
   - component: {fileID: 5236392769093529043}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -906,7 +906,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5736401492999160938}
   - component: {fileID: 2096338311006290601}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: pierna_fondo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -989,7 +989,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2331103883399024158}
   - component: {fileID: 7969080953426877199}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: pie_fondo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1071,7 +1071,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8077131004863721123}
   - component: {fileID: 7313005518821591860}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: brazo_fondo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1154,7 +1154,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4076438066650425467}
   - component: {fileID: 7065654113506156875}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: muslo_frente
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1237,7 +1237,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8889799831604898896}
   - component: {fileID: 9197450929658574698}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: muslo_fondo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1320,7 +1320,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9053141094657397545}
   - component: {fileID: 4359574902951535752}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: antebrazo_frente
   m_TagString: Untagged
   m_Icon: {fileID: 0}

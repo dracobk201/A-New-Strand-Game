@@ -153,6 +153,10 @@ MonoBehaviour:
     ConstantValue: 0
     Variable: {fileID: 11400000, guid: f134fe49ac7e04344960d8933384d5d3, type: 2}
   PoolRecharged: {fileID: 11400000, guid: 3539918a34c9b294d990b0035ea81e0c, type: 2}
+  PersonPosition:
+    UseVariable: 1
+    ConstantValue: {x: 0, y: 0, z: 0}
+    Variable: {fileID: 11400000, guid: fa57fbf48111a86478cc9cb6aa9824f4, type: 2}
 --- !u!61 &5292994904125004985
 BoxCollider2D:
   m_ObjectHideFlags: 0
