@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0224c4e955acd93489bd88e4aefbc935, type: 3}
   m_Name: BGM Volume
   m_EditorClassIdentifier: 
-  Value: 0
+  Value: 0.4
   Description: 
