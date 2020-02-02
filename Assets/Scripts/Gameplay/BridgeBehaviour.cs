@@ -5,28 +5,26 @@ using UnityEngine;
 public class BridgeBehaviour : MonoBehaviour
 {
     [Header ("Pools")]
-    [SerializeField]
-    private IntReference WoodPool;
-    [SerializeField]
-    private IntReference WaterPool;
-    [SerializeField]
-    private IntReference EnergyPool;
+    [SerializeField] private IntReference WoodPool;
+    [SerializeField] private IntReference WaterPool;
+    [SerializeField] private IntReference EnergyPool;
     [Header ("Needs")]
-    [SerializeField]
-    private IntReference WoodNeeded;
-    [SerializeField]
-    private IntReference WaterNeeded;
-    [SerializeField]
-    private IntReference EnergyNeeded;
+    [SerializeField] private IntReference WoodNeeded;
+    [SerializeField] private IntReference WaterNeeded;
+    [SerializeField] private IntReference EnergyNeeded;
     [Header("Internal")]
-    [SerializeField]
-    private GameEvent BridgeRepaired;
-    [SerializeField]
-    private Collider2D otherCollider;
-    [SerializeField]
-    private SpriteRenderer bridgeSpriteRenderer;
+    [SerializeField] private GameEvent BridgeRepaired;
+    [SerializeField] private Collider2D otherCollider;
+    [SerializeField] private SpriteRenderer bridgeSpriteRenderer;
+    [SerializeField] private Sprite bridgeDestroyedSprite;
+    [SerializeField] private Sprite bridgeRepairedSprite;
     private bool playerInside;
     private bool thisZoneIsRepaired;
+
+    private void Start()
+    {
+        bridgeSpriteRenderer.sprite = bridgeDestroyedSprite;
+    }
 
     private void OnTriggerStay2D(Collider2D other)
     {
@@ -57,7 +55,7 @@ public class BridgeBehaviour : MonoBehaviour
             EnergyPool.Value -= EnergyNeeded.Value;
             //Disparar Animación
             coll.enabled = false;
-            bridgeSpriteRenderer.color = Color.green;
+            bridgeSpriteRenderer.sprite = bridgeRepairedSprite;
             thisZoneIsRepaired = true;
             BridgeRepaired.Raise();
         }

@@ -1041,6 +1041,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: be15d67ec5b40744e8299d09be523451,
         type: 2}
+    - target: {fileID: 4430881101462961521, guid: ba1eb938efa192342b2ac515d266f221,
+        type: 3}
+      propertyPath: bridgeDestroyedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c27c418f9cc08aa41b522f19b91cced2,
+        type: 3}
     - target: {fileID: 4430881101462961535, guid: ba1eb938efa192342b2ac515d266f221,
         type: 3}
       propertyPath: m_Name
