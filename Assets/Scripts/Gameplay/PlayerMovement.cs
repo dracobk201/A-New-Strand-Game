@@ -24,8 +24,7 @@ public class PlayerMovement : MonoBehaviour
     
     public void Move()
     {
-        if (playerAnimator.GetCurrentAnimatorStateInfo(0).normalizedTime < 1 &&
-         !playerAnimator.GetCurrentAnimatorStateInfo(0).IsName("Minerito_repairing"))
+        if (!playerAnimator.GetCurrentAnimatorStateInfo(0).IsName("Minerito_repairing"))
         {
             Vector2 oldPosition = playerRigidbody2D.position;
             float newX = HorizontalAxis.Value * MoveSpeed.Value * Time.deltaTime;

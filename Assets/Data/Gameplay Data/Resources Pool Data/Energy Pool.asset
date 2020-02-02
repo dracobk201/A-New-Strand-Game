@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0224c4e955acd93489bd88e4aefbc935, type: 3}
-  m_Name: Move Speed
+  m_Script: {fileID: 11500000, guid: 0a9d61a6006a0b643bb5b844f6349de6, type: 3}
+  m_Name: Energy Pool
   m_EditorClassIdentifier: 
-  Value: 3
+  Value: 96
   Description: 
