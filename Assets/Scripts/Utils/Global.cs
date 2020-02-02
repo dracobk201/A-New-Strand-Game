@@ -24,5 +24,7 @@
     public const string MINERGUYCLIMBING = "vertical";
     public const string MINERGUYIDLE = "idle";
     public const string MINERGUYREPAIR = "repair";
+    public const string ZONEONANIMATION = "on";
+    public const string ZONEOFFANIMATION = "off";
     #endregion
 }

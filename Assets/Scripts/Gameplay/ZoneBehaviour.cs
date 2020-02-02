@@ -5,23 +5,17 @@ using UnityEngine;
 public class ZoneBehaviour : MonoBehaviour
 {
     [Header ("Pools")]
-    [SerializeField]
-    private IntReference WoodPool;
-    [SerializeField]
-    private IntReference WaterPool;
-    [SerializeField]
-    private IntReference EnergyPool;
+    [SerializeField] private IntReference WoodPool;
+    [SerializeField] private IntReference WaterPool;
+    [SerializeField] private IntReference EnergyPool;
     [Header ("Refills")]
-    [SerializeField]
-    private IntReference WoodGenerated;
-    [SerializeField]
-    private IntReference WaterGenerated;
-    [SerializeField]
-    private IntReference EnergyGenerated;
-    [SerializeField]
-    private GameEvent PoolRecharged;
+    [SerializeField] private IntReference WoodGenerated;
+    [SerializeField] private IntReference WaterGenerated;
+    [SerializeField] private IntReference EnergyGenerated;
+    [SerializeField] private GameEvent PoolRecharged;
     [SerializeField] private Vector3Reference PersonPosition;
     [SerializeField] private GameObject SpawnerPoint;
+    [SerializeField] private Animator zoneAnimator;
     private bool zoneWithResource;
     private bool playerInside;
 
@@ -52,6 +46,7 @@ public class ZoneBehaviour : MonoBehaviour
     public void ZoneRechargeResource()
     {
         zoneWithResource = true;
+        zoneAnimator.SetTrigger(Global.ZONEONANIMATION);
     }
 
     private void RechargePool()
@@ -60,6 +55,7 @@ public class ZoneBehaviour : MonoBehaviour
         WaterPool.Value += WaterGenerated.Value;
         EnergyPool.Value += EnergyGenerated.Value;
         zoneWithResource = false;
+        zoneAnimator.SetTrigger(Global.ZONEOFFANIMATION);
         PersonPosition.Value = SpawnerPoint.transform.position;
         PoolRecharged.Raise();
     }
