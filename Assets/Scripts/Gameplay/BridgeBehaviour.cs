@@ -19,6 +19,10 @@ public class BridgeBehaviour : MonoBehaviour
     [SerializeField] private SpriteRenderer SuperiorBbridgeSpriteRenderer;
     [SerializeField] private Sprite bridgeDestroyedSprite;
     [SerializeField] private Sprite bridgeRepairedSprite;
+
+    [SerializeField] private GameObject fire;
+
+
     private bool playerInside;
     private bool thisZoneIsRepaired;
 
@@ -59,6 +63,9 @@ public class BridgeBehaviour : MonoBehaviour
             //Disparar Animación
             coll.enabled = false;
             bridgeSpriteRenderer.sprite = bridgeRepairedSprite;
+
+            if (fire != null) fire.SetActive(false);
+
             if (!gameObject.tag.Equals(Global.BRIDGETAG))
                 SuperiorBbridgeSpriteRenderer.sprite = bridgeRepairedSprite;
             thisZoneIsRepaired = true;
