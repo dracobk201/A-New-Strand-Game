@@ -183,6 +183,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5292994904125004984, guid: ca7aee9e0aac57541804916304a975d5,
+        type: 3}
+      propertyPath: zoneAnimator
+      value: 
+      objectReference: {fileID: 7784982231534571783}
     - target: {fileID: 5292994904125004985, guid: ca7aee9e0aac57541804916304a975d5,
         type: 3}
       propertyPath: m_Offset.y
