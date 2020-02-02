@@ -12,6 +12,8 @@ public class PlayerMovement : MonoBehaviour
     private FloatReference MoveSpeed;
     [SerializeField]
     private BoolReference PlayerInStairs;
+    [SerializeField]
+    private Animator playerAnimator;
     private Rigidbody2D playerRigidbody2D;
 
     private void Awake()
@@ -22,19 +24,23 @@ public class PlayerMovement : MonoBehaviour
     
     public void Move()
     {
-        Vector2 oldPosition = playerRigidbody2D.position;
-        float newX = HorizontalAxis.Value * MoveSpeed.Value * Time.deltaTime;
-        float newY;
-        if (PlayerInStairs.Value)
+        if (playerAnimator.GetCurrentAnimatorStateInfo(0).normalizedTime < 1 &&
+         !playerAnimator.GetCurrentAnimatorStateInfo(0).IsName("Minerito_repairing"))
         {
-            newY = VerticalAxis.Value * MoveSpeed.Value * Time.deltaTime;
-            playerRigidbody2D.gravityScale = 0;
+            Vector2 oldPosition = playerRigidbody2D.position;
+            float newX = HorizontalAxis.Value * MoveSpeed.Value * Time.deltaTime;
+            float newY;
+            if (PlayerInStairs.Value)
+            {
+                newY = VerticalAxis.Value * MoveSpeed.Value * Time.deltaTime;
+                playerRigidbody2D.gravityScale = 0;
+            }
+            else
+            {
+                newY = 0;
+                playerRigidbody2D.gravityScale = 1;
+            }
+            playerRigidbody2D.position = new Vector2(oldPosition.x + newX, oldPosition.y + newY);
         }
-        else
-        {
-            newY = 0;
-            playerRigidbody2D.gravityScale = 1;
-        }
-        playerRigidbody2D.position = new Vector2(oldPosition.x + newX, oldPosition.y + newY);
     }
 }
