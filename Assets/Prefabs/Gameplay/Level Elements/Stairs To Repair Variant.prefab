@@ -118,6 +118,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stairs To Repair Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 4430881101462961535, guid: ba1eb938efa192342b2ac515d266f221,
+        type: 3}
+      propertyPath: m_TagString
+      value: Stairs
+      objectReference: {fileID: 0}
     - target: {fileID: 4430881101815956848, guid: ba1eb938efa192342b2ac515d266f221,
         type: 3}
       propertyPath: m_LocalPosition.x
