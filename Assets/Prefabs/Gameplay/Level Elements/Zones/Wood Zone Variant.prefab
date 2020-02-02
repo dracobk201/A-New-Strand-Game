@@ -7,6 +7,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1797482167645174992, guid: ca7aee9e0aac57541804916304a975d5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.67
+      objectReference: {fileID: 0}
     - target: {fileID: 5292994902867211762, guid: ca7aee9e0aac57541804916304a975d5,
         type: 3}
       propertyPath: m_Sprite
@@ -101,7 +106,7 @@ PrefabInstance:
     - target: {fileID: 5292994904125004988, guid: ca7aee9e0aac57541804916304a975d5,
         type: 3}
       propertyPath: m_Name
-      value: Zone
+      value: Wood Zone Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca7aee9e0aac57541804916304a975d5, type: 3}
