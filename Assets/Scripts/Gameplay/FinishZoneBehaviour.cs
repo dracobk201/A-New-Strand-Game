@@ -26,11 +26,7 @@ public class FinishZoneBehaviour : MonoBehaviour
 
     public void ActionTriggered()
     {
-        print("Pakata");
         if (playerInside)
-        {
-            print("Pakata inside");
             GameFinished.Raise();
-        }
     }
 }

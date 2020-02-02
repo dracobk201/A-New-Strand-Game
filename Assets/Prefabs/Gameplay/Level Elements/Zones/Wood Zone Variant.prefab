@@ -202,11 +202,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wood Zone Variant
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 5292994904125004988, guid: ca7aee9e0aac57541804916304a975d5,
         type: 3}
       propertyPath: m_IsActive
       value: 1
+=======
+>>>>>>> af5cfd3a5d8546d6479fb4b65a92eef6c646ba57
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca7aee9e0aac57541804916304a975d5, type: 3}
