@@ -39,12 +39,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 3764532357
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Islands
-    uniqueID: 2820080513
-    locked: 0
-  - name: Player
-    uniqueID: 3366328425
+  - name: Foreground
+    uniqueID: 2809388227
     locked: 0

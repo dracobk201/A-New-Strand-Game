@@ -23,6 +23,11 @@ public class PlayerAnimatorHandler : MonoBehaviour
         playerAnimator.SetTrigger(Global.MINERGUYWALKING);
     }
 
+    public void SetClimbing()
+    {
+        playerAnimator.SetTrigger(Global.MINERGUYCLIMBING);
+    }
+
     public void SetRepair()
     {
         playerAnimator.SetTrigger(Global.MINERGUYREPAIR);

@@ -19,6 +19,7 @@
 
     #region Animations
     public const string MINERGUYWALKING = "walk";
+    public const string MINERGUYCLIMBING = "vertical";
     public const string MINERGUYIDLE = "idle";
     public const string MINERGUYREPAIR = "repair";
     #endregion
