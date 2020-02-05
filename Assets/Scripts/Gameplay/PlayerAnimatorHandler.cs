@@ -1,11 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerAnimatorHandler : MonoBehaviour
 {
-    [SerializeField]
-    private Animator playerAnimator;
+    [SerializeField] private Animator playerAnimator;
 
     public void SetRightWalking()
     {

@@ -1,17 +1,13 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PeopleBehaviour : MonoBehaviour
 {
-    #region Bullet Variables
-    [Header("Bullet Variables")]
-    [SerializeField]
-    private Rigidbody2D rb;
-    [SerializeField]
-    private FloatReference PersonVelocity;
-    [SerializeField]
-    private FloatReference PersonTimeOfLife;
+    #region People Variables
+    [Header("People Variables")]
+    [SerializeField] private Rigidbody2D personRigidbody;
+    [SerializeField] private FloatReference PersonVelocity;
+    [SerializeField] private FloatReference PersonTimeOfLife;
     private Vector3 direction;
     private Vector3 scale;
     #endregion
@@ -41,7 +37,6 @@ public class PeopleBehaviour : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D col)
     {
-        Debug.Log(string.Format("{0}-{1}",col.collider.name,col.collider.tag));
         if (col.collider.CompareTag(Global.BLOCKERTAG))
         {
             if (direction == Vector3.right)

@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class ZoneBehaviour : MonoBehaviour
 {
@@ -24,7 +22,6 @@ public class ZoneBehaviour : MonoBehaviour
         playerInside = false;
         zoneWithResource = true;
         zoneAnimator.SetBool(Global.ZONEONANIMATION,true);
-
     }
 
     private void OnTriggerStay2D(Collider2D other)

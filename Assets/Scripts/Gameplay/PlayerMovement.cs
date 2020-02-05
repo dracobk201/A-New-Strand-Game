@@ -1,19 +1,12 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField]
-    private FloatReference HorizontalAxis;
-    [SerializeField]
-    private FloatReference VerticalAxis;
-    [SerializeField]
-    private FloatReference MoveSpeed;
-    [SerializeField]
-    private BoolReference PlayerInStairs;
-    [SerializeField]
-    private Animator playerAnimator;
+    [SerializeField] private FloatReference HorizontalAxis;
+    [SerializeField] private FloatReference VerticalAxis;
+    [SerializeField] private FloatReference MoveSpeed;
+    [SerializeField] private BoolReference PlayerInStairs;
+    [SerializeField] private Animator playerAnimator;
     private Rigidbody2D playerRigidbody2D;
 
     private void Awake()

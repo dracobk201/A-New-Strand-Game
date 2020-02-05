@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PauseActions : MonoBehaviour
 {
@@ -49,11 +47,6 @@ public class PauseActions : MonoBehaviour
     {
         SceneToChange.Value = Global.FIRSTLEVELSCENE;
         ChangeSceneEvent.Raise();
-    }
-
-    public void OptionsButtonPressed()
-    {
-        //Nothing for now
     }
 
     public void QuitButtonPressed()

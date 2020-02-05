@@ -1,48 +1,32 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.SceneManagement;
 
 public class ControllerHandler : MonoBehaviour
 {
     #region Directional buttons
     [Header("Directional Buttons Variables")]
-    [SerializeField]
-    private BoolReference HorizontalSinglePress;
-    [SerializeField]
-    private FloatReference HorizontalAxis;
-    [SerializeField]
-    private GameEvent NonHorizontalAxisEvent;
-    [SerializeField]
-    private GameEvent LeftButtonEvent;
-    [SerializeField]
-    private GameEvent RightButtonEvent;
+    [SerializeField] private BoolReference HorizontalSinglePress;
+    [SerializeField] private FloatReference HorizontalAxis;
+    [SerializeField] private GameEvent NonHorizontalAxisEvent;
+    [SerializeField] private GameEvent LeftButtonEvent;
+    [SerializeField] private GameEvent RightButtonEvent;
     private bool isHorizontalAxisInUse = false;
 
-    [SerializeField]
-    private BoolReference VerticalSinglePress;
-    [SerializeField]
-    private FloatReference VerticalAxis;
-    [SerializeField]
-    private GameEvent UpButtonEvent;
-    [SerializeField]
-    private GameEvent DownButtonEvent;
-    [SerializeField]
-    private GameEvent NonVerticalAxisEvent;
+    [SerializeField] private BoolReference VerticalSinglePress;
+    [SerializeField] private FloatReference VerticalAxis;
+    [SerializeField] private GameEvent UpButtonEvent;
+    [SerializeField] private GameEvent DownButtonEvent;
+    [SerializeField] private GameEvent NonVerticalAxisEvent;
     private bool isVerticalAxisInUse = false;
 
-    [SerializeField]
-    private GameEvent DirectionalAxisEvent;
-    [SerializeField]
-    private GameEvent NoDirectionalAxisEvent;
+    [SerializeField] private GameEvent DirectionalAxisEvent;
+    [SerializeField] private GameEvent NoDirectionalAxisEvent;
 
     [Header("Touch Variables")]
-    [SerializeField]
-    private FloatReference MaxSwipeTime;
-    [SerializeField]
-    private FloatReference MinSwipeDistance;
+    [SerializeField] private FloatReference MaxSwipeTime;
+    [SerializeField] private FloatReference MinSwipeDistance;
     private Touch touch;
     private float swipeStartTime;
     private bool couldBeSwipe;
@@ -53,12 +37,9 @@ public class ControllerHandler : MonoBehaviour
 
     #region Action Buttons
     [Header("Action Buttons Variables")]
-    [SerializeField]
-    private GameEvent StartButtonEvent;
-    [SerializeField]
-    private GameEvent SquareButtonEvent;
-    [SerializeField]
-    private GameEvent XButtonEvent;
+    [SerializeField] private GameEvent StartButtonEvent;
+    [SerializeField] private GameEvent SquareButtonEvent;
+    [SerializeField] private GameEvent XButtonEvent;
 
     private bool isStartAxisInUse = false;
     private bool isSquareAxisInUse = false;
@@ -66,10 +47,8 @@ public class ControllerHandler : MonoBehaviour
     #endregion
 
     [Header("UI Active Variables")]
-    [SerializeField]
-    private BoolReference UIPanelActive;
-    [SerializeField]
-    private GameEvent UIChangeEvent;
+    [SerializeField] private BoolReference UIPanelActive;
+    [SerializeField] private GameEvent UIChangeEvent;
 
     private void Start()
     {
